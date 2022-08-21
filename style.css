@@ -126,7 +126,10 @@ nav .fa{
     .nav-links ul{
         padding: 30px;
     }
-
+    .header{
+        Margin: fit-content;
+    }
+        
 }
 .service{
 
@@ -175,6 +178,10 @@ h3{
 
     .row{
         flex-direction: column;
+    }
+    .service{
+        Margin: fit-content;
+
     }
 }
 
