@@ -175,6 +175,12 @@ h3{
     margin-top: 50px;
 
 }
+
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+
 @media(max-width: 481px){
 
     .row{
@@ -322,7 +328,10 @@ h3{
 }
 
 
-
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
 
   const resizeOps = () => {
     document.documentElement.style.setProperty("--vh", window.innerHeight * 0.01 + "px");
