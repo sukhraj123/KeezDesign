@@ -350,3 +350,18 @@ media(max-width: 700px){
 
 
 }
+  const resizeOps = () => {
+    document.documentElement.style.setProperty("--vh", window.innerHeight * 0.01 + "px");
+  };
+
+  resizeOps();
+  window.addEventListener("resize", resizeOps);
+
+.modal {
+  width: 50vw;
+  height: 50vh;
+  height: calc(var(--vh, 1vh) * 50);
+}
+
+
+
