@@ -319,3 +319,24 @@ h3{
     padding-bottom: 150px;
 
 }
+
+media(max-width: 700px){
+
+    .bottom{
+
+       display: block;
+}
+
+    .down{
+
+       display: block;
+}
+
+    .cat{
+
+       display: block;
+}
+
+
+
+}
