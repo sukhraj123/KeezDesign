@@ -4,11 +4,11 @@
     font-family: 'Lora', serif;
 }
 .header{
-    min-height: 100vh;
+    min-height: 800vh;
     width: 100%;
     background-image: linear-gradient(rgba(29, 41, 0, 0.7),rgba(29, 41, 0, 0.7)),url(image/BG.png);
     background-position: center;
-    background-size: cover;
+    background-size: fit-content;
     padding-bottom: 200px;
     position: relative;
 }
@@ -17,7 +17,7 @@
     width: 100%;
     background-image: linear-gradient(rgba(29, 41, 0, 0.7),rgba(29, 41, 0, 0.7)),url(image/BG.png);
     background-position: center;
-    background-size: cover;
+    background-size: Fit-content;
     position: relative;
 }
 nav{
