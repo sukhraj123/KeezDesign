@@ -274,6 +274,7 @@ div img{
     height: fit-content;
     padding-left: 1200px;
     background-color: #1b1b11;
+    display: block;
 }
 .pop{
     color:#fcfcfc;
