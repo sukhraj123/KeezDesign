@@ -127,7 +127,8 @@ nav .fa{
         padding: 30px;
     }
     .header{
-        Margin: fit-content;
+       
+        display: block;
     }
         
 }
