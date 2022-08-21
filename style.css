@@ -129,8 +129,26 @@ nav .fa{
     .header{
        
         display: block;
+        min-height: 50vh;
+        width: 100%;
+        background-image: linear-gradient(rgba(29, 41, 0, 0.7),rgba(29, 41, 0, 0.7)),url(image/BG.png);
+        background-position: center;
+        background-size: fit-content;
+        padding-bottom: 100px;
+        position: relative;
     }
-        
+       
+     headerc{
+       
+        display: block;
+        min-height: 50vh;
+        width: 100%;
+        background-image: linear-gradient(rgba(29, 41, 0, 0.7),rgba(29, 41, 0, 0.7)),url(image/BG.png);
+        background-position: center;
+        background-size: fit-content;
+        padding-bottom: 100px;
+        position: relative;
+    }
 }
 .service{
 
