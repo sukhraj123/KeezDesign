@@ -188,7 +188,7 @@ h3{
     }
     .service{
         Margin: fit-content;
-
+        overflow-x: scroll;
     }
 }
 
