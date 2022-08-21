@@ -97,7 +97,7 @@ nav .fa{
 }
 
 
-@media(max-width: 700px){
+@media(max-width: 481px){
     .text-box h1{
         font-size: 20px;
     }
@@ -175,7 +175,7 @@ h3{
     margin-top: 50px;
 
 }
-@media(max-width: 700px){
+@media(max-width: 481px){
 
     .row{
         flex-direction: column;
@@ -321,35 +321,9 @@ h3{
 
 }
 
-media(max-width: 700px){
-
-    .bottom{
-
-       display: block;
-}
-
-    .down{
-
-       display: block;
-}
-
-    .cat{
-
-       display: block;
-}
-
-    .polo{
-
-       display: block;
-}
-
-.{
-
-       display: block;
-}
 
 
-}
+
   const resizeOps = () => {
     document.documentElement.style.setProperty("--vh", window.innerHeight * 0.01 + "px");
   };
@@ -363,5 +337,12 @@ media(max-width: 700px){
   height: calc(var(--vh, 1vh) * 50);
 }
 
+@media screen and (max-width: 481px){
+
+
+  display: block;
+
+
+}
 
 
