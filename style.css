@@ -339,8 +339,9 @@ h3{
 
 @media screen and (max-width: 481px){
 
-  .polo{
-     display: block;
+    .polo{
+        display: block;
+        position: absolute;
 
 
 }
