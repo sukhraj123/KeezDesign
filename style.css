@@ -4,20 +4,20 @@
     font-family: 'Lora', serif;
 }
 .header{
-    min-height: 800vh;
+    min-height: 100vh;
     width: 100%;
     background-image: linear-gradient(rgba(29, 41, 0, 0.7),rgba(29, 41, 0, 0.7)),url(image/BG.png);
     background-position: center;
-    background-size: fit-content;
+    background-size: cover;
     padding-bottom: 200px;
     position: relative;
 }
 .headerc{
-    min-height: 80vh;
+    min-height: 100vh;
     width: 100%;
     background-image: linear-gradient(rgba(29, 41, 0, 0.7),rgba(29, 41, 0, 0.7)),url(image/BG.png);
     background-position: center;
-    background-size: Fit-content;
+    background-size: cover;
     position: relative;
 }
 nav{
