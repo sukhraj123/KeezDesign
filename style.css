@@ -272,7 +272,7 @@ div img{
 .polo{
     width: 400px;
     height: fit-content;
-    padding-left: 1200px;
+    padding-left: 1200px
     background-color: #1b1b11;
     display: block;
 }
@@ -339,10 +339,11 @@ h3{
 
 @media screen and (max-width: 481px){
 
+  .polo{
+     display: block;
 
-  display: block;
 
-
+}
 }
 
 
