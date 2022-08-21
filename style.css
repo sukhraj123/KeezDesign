@@ -285,7 +285,7 @@ div img{
     padding-left: 200px;
 }
 .polo{
-    width: 400px;
+    width: 250px;
     height: fit-content;
     padding-left: 1200px
     background-color: #1b1b11;
@@ -336,32 +336,8 @@ h3{
 
 }
 
-  const resizeOps = () => {
-    document.documentElement.style.setProperty("--vh", window.innerHeight * 0.01 + "px");
-  };
 
-  resizeOps();
-  window.addEventListener("resize", resizeOps);
 
-.modal {
-  width: 50vw;
-  height: 50vh;
-  height: calc(var(--vh, 1vh) * 50);
-}
-
-@media screen and (max-width: 700px){
-
-    .polo{
-        display: block;
-      
-        
-
-    }
-    .pic-col img{
-        display: block;
-
-    }
-}
 
 
 
