@@ -177,7 +177,7 @@ p{
     padding-top: 20px;
 }
 .service-col{
-    flex-basis: 31%;
+    flex-basis: 39%;
     background: #fcfcfc;
     border-radius: 16px;
     margin-bottom: 2%;
@@ -204,37 +204,6 @@ div img{
     width: 200px;
 }
 
-.row{
-
-    margin-top: 10%;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    margin: auto;
-    background-position: center;
-    background-size: cover;
-    padding-bottom: 50px;
-    position: relative;
-    background-image: linear-gradient(rgba(158, 123, 58, 0.548),rgba(158, 123, 58, 0.548)),url(image/kevin-canlas-cFFEeHNZEqw-unsplash.jpg);
-}
-
-.pic-col{
-
-    flex-basis: 50%;
-    background: transparent;
-    border-radius: 5px;
-    margin-bottom: 5%;
-    padding: 20px 12px;
-    box-sizing: border-box;
-    transition: 0.5s;
-    text-align: center;
-    
-
-    border-left: #787a40;
-    border-right: #787a40;
-    border-width: 5px;
-    
-}
 
 
 .layer{
@@ -257,7 +226,7 @@ div img{
         width: 100%;
     }
     .pic-col img{
-        display: flex;
+        display: block;
         margin: auto;
        
     
@@ -283,14 +252,14 @@ div img{
     background-color: transparent;
     justify-content: space-between;
     display: flex;
-    flex-direction: 100%;
+    flex-direction: 50%;
     Margin: auto;
 
 
 }
 .photo img{
 
-    width: 100%;
+    margin: auto;
     
 }
 h4{
