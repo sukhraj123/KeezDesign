@@ -173,7 +173,7 @@ p{
     margin-top: 5%;
     display: flex;
     justify-content: space-between;
-    width: 90%;
+    width: 80%;
     padding-top: 20px;
 }
 .service-col{
@@ -212,7 +212,7 @@ div img{
     margin: auto;
     background-position: center;
     background-size: cover;
-    padding-bottom: 50pxpx;
+    padding-bottom: 50px;
     position: relative;
     background-image: linear-gradient(rgba(158, 123, 58, 0.548),rgba(158, 123, 58, 0.548)),url(image/kevin-canlas-cFFEeHNZEqw-unsplash.jpg);
 }
@@ -283,13 +283,14 @@ div img{
     justify-content: space-between;
     display: flex;
     flex-direction: 100%;
+    Margin: auto;
 
 
 }
 .photo img{
 
     width: 100%;
-    height: fit-content;
+    
 }
 h4{
     color:#bbad46;
