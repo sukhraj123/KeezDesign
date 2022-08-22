@@ -45,7 +45,7 @@ nav img{
 .nav-links ul li a{
     color: #e6bf6d;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 13px;
 }
 .nav-links ul li::after{
     content: '';
@@ -125,9 +125,9 @@ nav .fa{
     }
     nav .fa{
         display: block;
-        color: #bbad41;
+        color: #e6bf6d;
         margin: 12px;
-        font-size: 24px;
+        font-size: 22px;
         cursor: pointer;
         transition: 1s;
     }
@@ -168,6 +168,41 @@ p{
     line-height: 22px;
     padding: 10px;
 }
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    padding-top: 20px;
+}
+.service-col{
+    flex-basis: 31%;
+    background: #fcfcfc;
+    border-radius: 16px;
+    margin-bottom: 2%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    text-align: center;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+    margin-top: 50px;
+
+}
+
+
+.service-col:hover{
+    box-shadow: 0 0 20px 10px rgb(235, 198, 37);
+
+}
+div img{
+    width: 200px;
+}
+
 .row{
 
     margin-top: 10%;
@@ -177,7 +212,7 @@ p{
     margin: auto;
     background-position: center;
     background-size: cover;
-    padding-bottom: 50px;
+    padding-bottom: 50pxpx;
     position: relative;
     background-image: linear-gradient(rgba(158, 123, 58, 0.548),rgba(158, 123, 58, 0.548)),url(image/kevin-canlas-cFFEeHNZEqw-unsplash.jpg);
 }
@@ -200,35 +235,6 @@ p{
     
 }
 
-.service-col{
-    flex-basis: 39%;
-    background: #fcfcfc;
-    border-radius: 16px;
-    margin-bottom: 2%;
-    padding: 20px 12px;
-    box-sizing: border-box;
-    transition: 0.5s;
-    text-align: center;
-    margin: auto;
-}
-h3{
-    text-align: center;
-    font-weight: 600;
-    margin: 10px 0;
-    margin-top: 50px;
-
-}
-
-
-.service-col:hover{
-    box-shadow: 0 0 20px 10px rgb(235, 198, 37);
-
-}
-div img{
-    width: 200px;
-}
-
-
 
 .layer{
     background: transparent;
@@ -250,9 +256,9 @@ div img{
         width: 100%;
     }
     .pic-col img{
-        display: block;
-        margin: auto;
-       
+        display: flex;
+        width: 100%;
+        height:fit-content;
     
 
     }
@@ -276,15 +282,14 @@ div img{
     background-color: transparent;
     justify-content: space-between;
     display: flex;
-    flex-direction: 50%;
-    Margin: auto;
+    flex-direction: 100%;
 
 
 }
 .photo img{
 
-    margin: auto;
-    
+    width: 100%;
+    height: fit-content;
 }
 h4{
     color:#bbad46;
