@@ -282,14 +282,14 @@ div img{
     background-color: transparent;
     justify-content: space-between;
     display: flex;
-    flex-direction: 100%;
+    flex-direction: 50%;
 
 
 }
 .photo img{
 
-    width: 100%;
-    height: fit-content;
+    margin; auto;
+    
 }
 h4{
     color:#bbad46;
