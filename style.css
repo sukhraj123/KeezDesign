@@ -43,9 +43,9 @@ nav img{
     position: relative;
 } 
 .nav-links ul li a{
-    color: #787a40;
+    color: #e6bf6d;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 14px;
 }
 .nav-links ul li::after{
     content: '';
@@ -125,9 +125,9 @@ nav .fa{
     }
     nav .fa{
         display: block;
-        color: #e6bf6d;
+        color: #787a40;
         margin: 12px;
-        font-size: 22px;
+        font-size: 24px;
         cursor: pointer;
         transition: 1s;
     }
