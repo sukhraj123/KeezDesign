@@ -264,6 +264,7 @@ div img{
     .pic-col IMG{
         display: flex;
         width: 100%;
+        height: fit-content;
     
 
     }
