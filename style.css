@@ -125,7 +125,7 @@ nav .fa{
     }
     nav .fa{
         display: block;
-        color: #787a40;
+        color: #bbad41;
         margin: 12px;
         font-size: 24px;
         cursor: pointer;
@@ -185,6 +185,7 @@ p{
     box-sizing: border-box;
     transition: 0.5s;
     text-align: center;
+    margin: auto;
 }
 h3{
     text-align: center;
