@@ -1,0 +1,286 @@
+html,
+body{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    text-align: center;
+}
+nav #user #publicKey {
+  right: 0;
+ 
+  padding: 5px;
+  justify-content: space-between;
+  width: 40px;
+  margin: auto;
+}
+
+nav.sticky{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  
+  
+}
+nav{
+    display: flex;
+  padding: 0% 6%;
+  right: 0;
+  left: 0;
+  background-attachment: fixed;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.nav-links{
+    flex: 1;
+    
+    width: 90%;
+    text-align: center;
+    
+    background-color: #ffffff;
+  
+  }
+  .nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    animation: fadeIn 5s;
+    
+    
+  } 
+  #menu img{
+    width: 20px;
+    background-color: #fcfcfc;
+    
+    
+  }
+  .nav-links ul li a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 16px;
+    background-attachment: fixed;
+    font-weight: 400;
+    
+  }
+  .nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #000000;
+    display: block;
+    margin: auto;
+  }
+  .nav-links ul li:hover::after{
+    width: 100%;
+  }
+  nav img{
+    width: 120px;
+    
+  }
+  nav .fa{
+    display: none;
+    
+  }
+h1{
+  color: #ffffff;
+  font-size: 66px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    color: #ffffff;
+    font-family: sans-serif;
+
+}
+header{
+    height: 100vh;
+    background-size: 100%;
+    margin-bottom: -50%;
+    background-image: url(./image/TRANSFORM\ BRANDS\ THROUGH\ INSPIRATION\ .\ \(4\).gif);
+}
+.rowabout{
+  height: 100vh;
+  background-size: 100%;
+  background-image: url(./image/1.jpg);
+  padding-bottom: 100px;
+}
+.rows{
+  
+    width:100%;
+    background-color: #282120; 
+    background-size: 100%;
+    margin-bottom: -10%;
+    
+    
+}
+.rows h2{
+  width: 40%;
+  margin-left: 30%;
+  margin-top: 50vw;
+  padding-top: 25vw;
+  padding-bottom: 25vw;
+  font-size: 32px;
+  text-shadow: #000000;
+
+}
+.rowone{
+    
+    width:60%;
+    height: 60vh;
+   
+    margin-top: -200px;
+    background-color: #282120; 
+    display: flex;
+    column-gap: 5px;
+    padding: 20%;
+    
+
+}
+
+.row{
+   flex-basis: 100%;
+    
+}
+
+.columnone {
+    
+  width: 100%;
+    flex-direction: column;
+   
+    
+    
+  }
+  .columnone img {
+    
+    
+    
+    width: 100%;
+  
+
+  }
+  
+  /* Clear floats after the columns */
+  .rowone:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.rowtwo{
+    height: 100vh;
+    background-size: 100%;
+    background-image: url(./image/2.jpg);
+    padding-bottom: 100px;
+}
+
+.rowthree{
+    
+    background-color: #f8620480; 
+    width:60%;
+  
+  display: flex;
+  column-gap: 5px;
+  padding: 20%;
+}
+.rowone{
+    
+  width:60%;
+  background-color: #282120; 
+  display: flex;
+  column-gap: 5px;
+  padding: 20%;
+  
+
+}
+.columnthree {
+    
+  width: 100%;
+    flex-direction: column;
+   
+    transition: 0.5s;
+    
+  }
+  .columnthree img {
+    
+    border-radius: 150px;
+    
+    width: 100%;
+
+  
+
+  }
+  .columnthree::after{
+    background-color: #fff;
+    content:"";
+  }
+  
+  /* Clear floats after the columns */
+  .rowthree:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  footer{
+    background-color: #282120;
+    height: 100vh;
+  }
+  @media(max-width: 700px){
+
+
+    .nav-links ul li{
+      display: block;
+      color: #000000;
+      border: #00dcd1;
+  }
+  .nav-links ul li a{
+      display: block;
+      color: #000000;
+  }
+  .nav-links{
+      position: fixed;
+      background: #fff;
+      height: 100vh;
+      width: 200px;
+      top: 0;
+      right: -200px;
+      text-align: right;
+      z-index: 1;
+      transition: 1s;
+      margin: auto;
+      
+  }
+      
+  
+  nav .fa {
+      display: block;
+      color: #fa7e09;
+      margin: 16px;
+      font-size: 32px;
+      cursor: pointer;
+      transition: 1s;
+  
+      
+  
+      }
+  nav .fa-times{
+      display: block;
+      color: #fa7e09;
+      margin: 16px;
+      font-size: 32px;
+      cursor: pointer;
+      transition: 1s;
+  
+  }
+  .nav-links ul{
+    padding: 15px;
+    color: #040404;
+}
+.rowabout{
+  background-image: url(./image/m\ \(1\).jpg);
+}
+.rowtwo{
+  background-image: url(./image/m\ \(2\).jpg);
+}
+  }  
